@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content=""/>
+        <title>数据可视化</title>
+        <link rel="stylesheet" href="./css/index.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>大屏数据可视化展板-Echarts</h1>
+            <div class="showTime"></div>
+            <section class="mainbox">
+                <!-- 左侧盒子 -->
+                <div class="column">
+                    <div class="panel bar">
+                        <h2>柱形图-就业行业</h2>
+                        <div class="chart"></div>
+                        <div class="panel-footer"></div>
+                    </div>
+                    <div class="panel line">
+                        <h2>折线图-人员变化
+                            <a href="javascript:;">2020</a>
+                            <a href="javascript:;">2021</a>
+                        </h2>
+                        <div class="chart"></div>
+                        <div class="panel-footer"></div>
+                    </div>
+                    <div class="panel pie">
+                        <h2>饼形图-年龄分布</h2>
+                        <div class="chart"></div>
+                        <div class="panel-footer"></div>
+                    </div>
+                </div>
+                <div class="column">
+                    <!-- no模板制作 -->
+                    <div class="no">
+                        <div class="no-hd">
+                            <ul>
+                                <li>123456</li>
+                                <li>123456</li>
+                            </ul>
+                        </div>
+                        <div class="no-bd">
+                            <ul>
+                                <li>前端需求人数</li>
+                                <li>市场供用人数</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--地图模板-->
+                    <div class="map">
+                        <!-- 球体 -->
+                        <div class="map1"></div>
+                        <!-- 旋转1 球体的旋转 -->
+                        <div class="map2"></div>
+                        <!-- 箭头旋转 -->
+                        <div class="map3"></div>
+                        <!-- 地图模块 -->
+                        <div class="chart"></div>
+                    </div>
+                </div>
+                <!-- 右侧盒子 -->
+                <div class="column">
+                    <div class="panel bar bar2">
+                        <h2>柱形图-技能掌握</h2>
+                        <div class="chart"></div>
+                        <div class="panel-footer"></div>
+                    </div>
+                    <div class="panel line line2">
+                        <h2>折线图-播放量</h2>
+                        <div class="chart"></div>
+                        <div class="panel-footer"></div>
+                    </div>
+                    <div class="panel pie pie2">
+                        <h2>饼形图-地区分布</h2>
+                        <div class="chart"></div>
+                        <div class="panel-footer"></div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <script src="./js/flexible.js"></script>
+        <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+        <script src="./js/time.js"></script>
+        <script src="./js/jquery.js"></script>
+        <script src="./js/echarts.min.js"></script>
+        <!-- 中国地图需要china.js -->
+        <script src="./js/china.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
